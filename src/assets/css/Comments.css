@@ -1,0 +1,158 @@
+.Comments {
+  margin: 0 auto;
+  width: 10.8rem;
+  padding-top: 1.68rem;
+  position: relative;
+}
+.Comments header {
+  width: 9.68rem;
+  height: 1.68rem;
+  padding: 0 .56rem;
+  background: #00a2ed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.Comments header div {
+  display: flex;
+  align-items: center;
+}
+.Comments header .left h2 {
+  margin-left: 1.07rem;
+  font-size: .5rem;
+  color: #ffffff;
+  line-height: .5rem;
+}
+.Comments header .left .icon-arror_left_blod {
+  font-size: .5rem;
+  color: #ffffff;
+}
+.Comments header .right .icon-fabiao {
+  font-size: .5rem;
+  color: #ffffff;
+}
+.Comments .long {
+  background: #ffffff;
+}
+.Comments .long .top {
+  height: 1.4rem;
+  border-bottom: .04rem solid #e5e5e5;
+  padding: 0 .5rem;
+}
+.Comments .long .top h3 {
+  font-size: .4rem;
+  line-height: 1.4rem;
+}
+.Comments .long #kong {
+  width: 100%;
+  background: #ffffff;
+  position: relative;
+}
+.Comments .long #kong img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -2.23rem;
+  margin-left: -5.4rem;
+  width: 10.8rem;
+  height: 4.46rem;
+}
+.Comments .long #longping li {
+  padding: .45rem .48rem;
+  border-bottom: .03rem solid #e5e5e5;
+  display: flex;
+}
+.Comments .long #longping li img {
+  width: 1.05rem;
+  height: 1.05rem;
+  border-radius: 50%;
+}
+.Comments .long #longping li .content {
+  width: 8.59rem;
+  padding-left: .2rem;
+}
+.Comments .long #longping li .content .name {
+  display: flex;
+  justify-content: space-between;
+}
+.Comments .long #longping li .content .name h4 {
+  font-size: .38rem;
+  font-weight: bold;
+  line-height: .68rem;
+}
+.Comments .long #longping li .content .name p {
+  color: #b8b8b8;
+  font-size: .36rem;
+  line-height: .68rem;
+}
+.Comments .long #longping li .content .pinglun {
+  margin-top: .24rem;
+  margin-bottom: .55rem;
+  font-size: .44rem;
+  line-height: .66rem;
+}
+.Comments .long #longping li .content .time {
+  color: #b6b6b6;
+  font-size: .28rem;
+}
+.Comments .short {
+  background: #ffffff;
+}
+.Comments .short .top {
+  width: 9.8rem;
+  height: 1.4rem;
+  border-bottom: .04rem solid #e5e5e5;
+  border-top: .04rem solid #e5e5e5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 .5rem;
+}
+.Comments .short .top h3 {
+  font-size: .4rem;
+  line-height: 1.4rem;
+}
+.Comments .short #shortping {
+  display: none;
+}
+.Comments .short #shortping li {
+  padding: .45rem .48rem;
+  border-bottom: .03rem solid #e5e5e5;
+  display: flex;
+}
+.Comments .short #shortping li img {
+  width: 1.05rem;
+  height: 1.05rem;
+  border-radius: 50%;
+}
+.Comments .short #shortping li .content {
+  width: 8.59rem;
+  padding-left: .2rem;
+}
+.Comments .short #shortping li .content .name {
+  display: flex;
+  justify-content: space-between;
+}
+.Comments .short #shortping li .content .name h4 {
+  font-size: .38rem;
+  font-weight: bold;
+  line-height: .68rem;
+}
+.Comments .short #shortping li .content .name p {
+  color: #b8b8b8;
+  font-size: .36rem;
+  line-height: .68rem;
+}
+.Comments .short #shortping li .content .pinglun {
+  margin-top: .24rem;
+  margin-bottom: .55rem;
+  font-size: .44rem;
+  line-height: .66rem;
+}
+.Comments .short #shortping li .content .time {
+  color: #b6b6b6;
+  font-size: .28rem;
+}

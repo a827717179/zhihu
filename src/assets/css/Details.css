@@ -1,0 +1,169 @@
+.Details {
+  margin: 0 auto;
+  width: 10.8rem;
+  background: #f3f3f3;
+  padding-top: 1.68rem;
+}
+.Details header {
+  z-index: 9;
+  width: 9.68rem;
+  height: 1.68rem;
+  padding: 0 .56rem;
+  background: #00a2ed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+.Details header div {
+  display: flex;
+  align-items: center;
+  line-height: 1;
+}
+.Details header div .iconfont {
+  font-size: .5rem;
+  color: #ffffff;
+}
+.Details header .right {
+  display: flex;
+  align-items: center;
+}
+.Details header .right .icon-fenxiang {
+  font-size: .52rem;
+  margin-right: 1.1rem;
+}
+.Details header .right .icon-xingzhuang60kaobei2 {
+  margin-right: .45rem;
+  margin-bottom: .05rem;
+}
+.Details header .right p {
+  display: flex;
+  align-items: center;
+}
+.Details header .right p span {
+  margin-left: .5rem;
+}
+.Details header .right p .icon-pinglun1 {
+  margin-top: .05rem;
+}
+.Details header .right p em {
+  margin-left: .2rem;
+  font-size: .34rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+.Details .box {
+  position: fixed;
+  top: 0;
+  z-index: 11;
+  width: 10.8rem;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.Details .box .morecenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -5.41rem;
+  margin-left: -4.65rem;
+  width: 9.3rem;
+  height: 10.82rem;
+  background: #ffffff;
+  border-radius: .1rem;
+}
+.Details .box .morecenter h2 {
+  margin: .68rem 0 .58rem;
+  padding-left: .74rem;
+  font-size: .56rem;
+  line-height: .56rem;
+  font-weight: bold;
+}
+.Details .box .morecenter ul {
+  padding: 0 .4rem;
+  display: flex;
+  flex-flow: row wrap;
+}
+.Details .box .morecenter ul li {
+  width: 33.33%;
+  text-align: center;
+  margin-bottom: .68rem;
+}
+.Details .box .morecenter ul li h3 {
+  line-height: 1.62rem;
+  margin-bottom: .24rem;
+}
+.Details .box .morecenter ul li h3 .iconfont {
+  display: block;
+  font-size: 1.62rem;
+}
+.Details .box .morecenter ul li h3 .icon-xinlangweibo {
+  color: #f13f19;
+}
+.Details .box .morecenter ul li h3 .icon-weixin {
+  color: #60c84f;
+}
+.Details .box .morecenter ul li h3 .icon-weixinpengyouquan {
+  color: #72cf29;
+}
+.Details .box .morecenter ul li h3 .icon-QQ {
+  color: #2369c8;
+}
+.Details .box .morecenter ul li h3 .icon-gengduo1 {
+  color: #7f7f7f;
+}
+.Details .box .morecenter ul li h3 .icon-yinxiangbiji {
+  color: #ffffff;
+}
+.Details .box .morecenter ul li h3 .icon-youdaoyunbiji {
+  color: #ffffff;
+}
+.Details .box .morecenter ul li .biji1 {
+  margin-top: -0.1rem;
+  margin-bottom: .34rem;
+  display: inline-block;
+  width: 1.62rem;
+  height: 1.62rem;
+  background: #5ab540;
+  text-align: center;
+  border-radius: 50%;
+}
+.Details .box .morecenter ul li .biji1 span {
+  font-size: .9rem;
+}
+.Details .box .morecenter ul li .biji2 {
+  margin-top: -0.1rem;
+  margin-bottom: .34rem;
+  display: inline-block;
+  width: 1.62rem;
+  height: 1.62rem;
+  background: #30a1ed;
+  text-align: center;
+  border-radius: 50%;
+}
+.Details .box .morecenter ul li .biji2 span {
+  font-size: .9rem;
+}
+.Details .box .morecenter ul li p {
+  font-size: .34rem;
+  line-height: .34rem;
+  color: #747474;
+  margin: 0 !important;
+}
+.Details #imgp {
+  padding: 0 .46rem;
+  margin: 0 !important;
+  line-height: .8rem;
+  font-size: .6rem;
+  color: #ffffff;
+  position: absolute;
+  bottom: .74rem;
+  z-index: 1;
+}
+.Details #imgsmall {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0;
+}

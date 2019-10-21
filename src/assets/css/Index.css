@@ -1,0 +1,89 @@
+.Index {
+  margin: 0 auto;
+  width: 10.8rem;
+  background: #f3f3f3;
+  padding-top: 1.68rem;
+}
+.Index header {
+  width: 9.68rem;
+  height: 1.68rem;
+  padding: 0 .56rem;
+  background: #00a2ed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.Index header div {
+  display: flex;
+  align-items: center;
+}
+.Index header .left h1 {
+  margin-left: 1.07rem;
+  font-size: .5rem;
+  color: #ffffff;
+}
+.Index header .left .icon-caidan {
+  font-size: .5rem;
+  color: #ffffff;
+}
+.Index header .right .icon-xiaoxi {
+  margin-right: .9rem;
+  font-size: .5rem;
+  color: #ffffff;
+}
+.Index header .right .icon-gengduo {
+  font-size: .5rem;
+  color: #ffffff;
+}
+.Index .banner {
+  width: 10.8rem;
+  height: 6.75rem;
+}
+.Index .banner div {
+  position: relative;
+}
+.Index .banner div img {
+  width: 10.8rem;
+  height: 6.75rem;
+}
+.Index .banner div .title {
+  position: absolute;
+  bottom: .78rem;
+  padding: 0 .5rem;
+  color: #ffffff;
+  font-size: .6rem;
+  line-height: .8rem;
+}
+.Index .content {
+  width: 10.34rem;
+  padding: 0 .23rem;
+}
+.Index .content h2 {
+  padding-left: .26rem;
+  font-size: .4rem;
+  line-height: 1.46rem;
+  margin-bottom: .1rem;
+  color: #6d6d6d;
+}
+.Index .content .hotnews li {
+  width: 9.36rem;
+  height: 2.58rem;
+  background: #ffffff;
+  border-radius: .2rem;
+  border: .02rem solid #dadada;
+  padding: .36rem .48rem 0;
+  margin-bottom: .2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.Index .content .hotnews li h3 {
+  line-height: .64rem;
+  font-size: .52rem;
+}
+.Index .content .hotnews li img {
+  width: 2.46rem;
+  height: 2.16rem;
+}
