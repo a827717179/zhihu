@@ -66,3 +66,11 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+21. 设集合 \( M = \{(i,j,s,t) | i \in \{1,2\}, j \in \{3,4\}, s \in \{5,6\}, t \in \{7,8\}, 2|(i + j + s + t) \} \)。对于给定有穷数列 \( A: \{a_n\} (1 \leq n \leq 8) \)，及序列 \( \Omega: \omega_1, \omega_2, \dots, \omega_k = (i_k, j_k, s_k, t_k) \in M \)，定义变换 \( T \) ：将数列 \( A \) 的第 \( i_1, j_1, s_1, t_1 \) 项加1，得到数列 \( T_1(A) \)；将数列 \( T_1(A) \) 的第 \( i_2, j_2, s_2, t_2 \) 列加1，得到数列 \( T_2 T_1(A) \)……重复上述操作，得到数列 \( T_k...T_2 T_1(A) \)，记为 \( \mathcal{Q}(A) \)。
+
+(1) 给定数列 \( A: 1, 3, 2, 4, 6, 3, 1, 9 \) 和序列 \( \Omega: (1, 3, 5, 7), (2, 4, 6, 8), (1, 3, 5, 7) \)，写出 \( \mathcal{Q}(A) \)；
+
+(2) 是否存在序列 \( \Omega \)，使得 \( \mathcal{Q}(A) \) 使 \( a_1 + 2, a_2 + 6, a_3 + 4, a_4 + 2, a_7 + 4, a_8 + 4 \) ，若存在，写出一个符合条件的 \( \Omega \)；若不存在，请说明理由；
+
+(3) 若数列 \( A \) 的各项均为正整数，且 \( a_1 + a_2 = a_3 + a_4 = a_5 + a_6 = a_7 + a_8 \)，为偶数，证明：存在序列 \( \Omega \)，使得 \( \mathcal{Q}(A) \) 为常数列。
